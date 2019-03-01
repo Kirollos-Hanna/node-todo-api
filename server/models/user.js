@@ -1,6 +1,6 @@
 let mongoose = require("mongoose");
 
-let User = mongoose("User", {
+let User = mongoose.model("User", {
   email: {
     type: String,
     required: true,
